@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("https://ak3.picdn.net/shutterstock/videos/22834273/thumb/1.jpg");
+    animation: bg-slide 5s linear infinite;
+    background-size: 100vw 100vh;
+}
+/* 160s */
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.ion-android-chat {
+    font-size: 150px;
+    color: #548687;
+    animation: colors 10s ease alternate-reverse infinite;
+}
+
+.btn-container {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+}
+
+.btn {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 1rem;
+    color: #009194;
+}
+
+.accent-color-1 {
+    background-color: rgb(0, 199, 245);
+}
+
+.accent-color-2 {
+    background-color: rgb(125, 221, 244);
+}
+
+.accent-color-3 {
+    color: #915ecc;
+}
+
+.inputs-container {
+    max-width: 600px;
+    min-width: 300px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
+}
+
+.input-title {
+    padding: 20px;
+    flex: 1;
+    color: #009194;
+}
+
+.input-wrapper {
+    flex: 2;
+    display: flex;
+    /* border-bottom: 1px solid #000; */
+    padding: 0px 10px;
+}
+
+.input {
+    flex-grow: 1;
+    font-size: 18px;
+    padding: 10px 10px;
+    height: 35px;
+    border: none;
+    opacity: 0.9;
+    border-bottom: 1px solid #000;
+    border-radius: 3px;
+    background-color: #5cd4ef;
+    
+}
+
+.input:focus {
+    border-bottom: 2px solid #548687;
+}
+
+@keyframes colors {
+    0% {
+        color: rgb(149, 156, 255);
+    }
+    50%{
+        color: rgb(51, 75, 255);
+    }
+    100% {
+        color: rgb(130, 20, 255);
+    }
+}
+
